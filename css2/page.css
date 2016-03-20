@@ -1,0 +1,44 @@
+body{
+background-color : #000000;
+}
+
+.wrapper h1{
+width : 100%;
+text-align : center;
+color : #00FF00;
+}
+
+
+.wrapper p{
+float : left;
+text-align : center;
+font-size : 24px;
+width : 75%;
+color : #FF0000;
+height : 40%;
+}
+
+.wrapper img{
+float : right;
+width : 20%;
+position : relative;
+}
+
+.content p{
+width : 100%;
+text-align : center;
+color : #FFFF00;
+}
+
+@media (max-width : 950px){
+.wrapper img {
+float : none;
+vertical-align : top;
+width : 100%;
+	}
+	
+.wrapper p{
+float : none;
+width : 100%;
+	}
+}
